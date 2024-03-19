@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: url(https://mb-demo1.myshopify.com/cdn/shop/files/marbo-furniture-slider-02.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav .logo img{
+    justify-content: space-around;
+    margin: 15px;
+    justify-content: space-around;
+    margin: 15px;
+    width: 100px;
+    height: 20px;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+nav .icon i{
+    margin: 10px;
+}
+
+header .center{
+    margin-top: 150px;
+}
+
+header .center h2{
+    font-size: 60px;
+}
+
+header .center h3{
+    font-size: 30px;
+}
+
+header .center button{
+    margin: 10px;
+    padding: 15px;
+transition: all 1s;
+border: 1px solid black;
+border-radius: 5px 7px;
+}
+
+header .center button:hover{
+   background-color: black;
+   color: white;
+}
+
+.grid h1{
+    color: black;
+    text-align: center;
+    margin: 50px 0;
+    text-shadow: 1px 2px 2px gold;
+    font-size: 30px;
+}
+
+.esas-1{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    margin: auto;
+    gap: 25px;
+    width: 1300px;  
+}
+
+
+
+.cart{
+
+    width: 250px;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 3px 4px 5px 5px rgba(0, 0, 255, 0.523);
+    margin: 20px;
+    padding: 10px;
+    transition: all 1s;
+   height: 100%;
+ }
+
+ .cart img {
+     width: 90%;
+     height: auto;
+     margin: 10px;
+     padding: 10px;
+     transition: all 2s; 
+ }
+ 
+ .cart .cart-content{
+     padding: 16px;
+     
+ }
+
+ .cart:hover{
+     background-color: green;
+ }
+ 
+ .cart:hover img{
+   transform: scale(1.1);
+ }
+
+ .cart .cart-content i{
+    margin: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 15px 17px;
+    transition: all 1s;
+    display: none;
+ }
+
+ .cart:hover .cart-content i{
+    display: block;
+    transition: all 1s;
+ }
+
+ .cart-content i:hover{
+    background-color: black;
+    color: white;
+ }
+ 
+ .cart-content{
+    display: flex;
+ }
+
+.sectionDiscount{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sectionDiscount 
+.Discount_img img:nth-child(1){
+    width: 600px;
+    height: 500px;
+    position: relative;
+    margin: 15px;
+}
+
+.sectionDiscount 
+.Discount_img img:nth-child(2){
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    border-radius: 50%;
+    left: 20px;
+    margin: 10px;
+}
+
+.sectionDiscount .DiscountTitle p{
+   color: black;
+   margin: 20px;
+}
+
+.sc-2 h1{
+    text-align: center;
+    margin: 50px 0;
+    text-shadow: 1px 2px 2px gold;
+    font-size: 30px;
+}
+
+.sc-3 h3{
+    text-align: center;
+    margin: 50px 0;
+    text-shadow: 1px 2px 2px gold;
+    font-size: 30px;
+}
+
+.sc-3 .sponsories{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1300px;
+    margin: auto;
+    padding: 70px 0px;
+}
+
+.sc-3 .sponsories img{
+   margin: 10px;
+}
+
+.sc-4{
+    margin-bottom: 50px;
+}
+
+.sc-4 h3{
+    text-align: center;
+    margin: 50px 0;
+    text-shadow: 1px 2px 2px gold;
+    font-size: 30px;
+}
+
+.sc-4 .form{
+    display: flex;
+    max-width: 880px;
+    margin: auto;
+    gap: 20px;
+}
+
+.form input{
+    padding: 15px;
+    outline: none;
+    border-radius: 15px 17px;
+}
+
+.form button{
+    border-radius: 15px 17px;
+    padding: 15px;
+    background-color: green;
+    color: white;
+    border: none;
+}
+
+
+.form button .send-icon {
+   display: none;
+   transition: all 4s;
+}
+
+.form button:hover .send-icon {
+    display: block;
+ }
+
+ .form button .icon-title{
+    display: block;
+    transition: all 4s;
+ }
+
+ .form button:hover .icon-title{
+    display: none;
+ }
+
+ footer nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer nav .logo img{
+    justify-content: space-around;
+    margin: 15px;
+    width: 100px;
+    height: 20px;
+   
+}
+
+footer nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer  nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer  ul li{
+    list-style: none;
+    margin: 15px;
+}
+
+footer nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+footer nav ul li a:hover{
+    text-decoration: underline;
+}
+
+footer nav .icon i{
+    margin: 10px;
+}
+
